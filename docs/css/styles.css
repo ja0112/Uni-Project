@@ -36,3 +36,21 @@
 .positon {
   margin-left: 2.5%;
 }
+.imgBorder {
+  border: 0.5px solid black;
+}
+.btnTransition {
+  border: 2px solid black;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  width: 15%;
+  height: 5%;
+  background-color: white;
+  cursor: pointer;
+  transition-duration: 1s;
+  transition-duration: 0.4s;
+}
+.btnTransition:hover {
+  color:white;
+  background-color:black;
+}
