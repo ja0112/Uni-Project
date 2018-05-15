@@ -2,34 +2,41 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Select - onchange example</title>
+    <title>Portfolio | James Ashcroft</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
   </head>
-
   <body>
-    <select id="event_planner" name="planner">
-       <option value="#">Select an Option</option>
-       <option value="Day">Day</option>
-       <option value="Week">Week</option>
-   </select>
-    <div id="results"></div>
+    <div class="wrapper">
+        <div class="title">
+            <h1>Design Portfolio</h1>
+            <h2 class="positon">by James Ashcroft</h2>
+        </div>
 
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script>
-      function makeAjaxRequest(opts){
-        $.ajax({
-          type: "REQUEST",
-          data: { opts: opts },
-          url: "process_ajax.php",
-          success: function(res) {
-            $("#results").html("<p>$_REQUEST contained: " + res + "</p>");
-          }
-        });
-      }
+        <div class="overview">
+              <h3>Overview</h3>
+              <p>An aspiring Interaction and User Experience (UX) designer that is also interested in
+                 frontend development.</p>
+        </div>
 
-      $("#event_planner").on("change", function(){
-        var selected = $(this).val();
-        makeAjaxRequest(selected);
-      });
-    </script>
+        <div class="rightOverview">
+            <p>As a designer I believe creating good user journeys matter. This is because users want
+                to interact with websites in the most efficient way to achieve thier goal. The aim
+                is to make processes simple that go from A - B in a matter of clicks.</p>
+      </div>
+
+      <div class="work">
+        <h3>My Work</h3>
+        <p>A rnge of dprojects can be seen listed below</p>
+      </div>
+
+      <div class="workFlex">
+            <div><img src="images/rsz_1browse-events.png"></div>
+
+            <div><img src="images/600x600.png"></div>
+
+            <!--<div><img src="images/400x300.png"></div>-->
+      </div>
+
+    </div>
   </body>
 </html>

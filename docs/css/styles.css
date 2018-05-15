@@ -1,0 +1,38 @@
+.wrapper {
+ margin-right: auto;
+ margin-left:  auto;
+ width: 91%;
+ font-family: 'Montserrat', sans-serif;
+ padding: 20px;
+}
+.title {
+  margin-left: 40%;
+  margin-top: -3%;
+}
+.overview {
+  width: 45%;
+  line-height: 2em;
+  text-align: justify;
+}
+.rightOverview {
+  float: right;
+  width: 50%;
+  text-align: justify;
+  line-height: 2em;
+  margin-top: -8%;
+}
+.work {
+  width: 50%;
+  margin-top: 5%;
+}
+.workFlex {
+   display: inline-flex;
+   justify-content: space-evenly;
+}
+.workFlex > div {
+  width: 100%;
+  margin-left: 2%;
+}
+.positon {
+  margin-left: 2.5%;
+}
