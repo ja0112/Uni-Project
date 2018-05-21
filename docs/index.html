@@ -4,15 +4,32 @@
     <meta charset="utf-8">
     <title>Portfolio | James Ashcroft</title>
     <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,400" rel="stylesheet"> 
   </head>
   <body>
-    <div class="wrapper">
-        <div class="title">
-            <h1>Design Portfolio</h1>
-            <h2 class="positon">by James Ashcroft</h2>
+    <div class="header">
+      <div class="logo">
+          <h1>Design Portfolio</h1>
+          <h2 class="positon">by James Ashcroft</h2>
         </div>
 
-        <div class="overview">
+        <div class="navfoot">
+              <ul>
+              <li><a href="#">ABOUT</a></li>
+              <li><a href="#myWork">WORK</a></li>
+              <li><a href="#connectFooter">CONNECT</a></li>
+              </ul>
+        </div>
+    </div>
+
+    <div class="wrapper">
+
+      <div class="intro">
+        <p>Hello there! Im a designer that enjoys the challenge of making good user journeys that help
+          improve user statisfaction.</p>
+      </div>
+
+        <!--<div class="overview">
               <h3>Overview</h3>
               <p>An aspiring Interaction and User Experience (UX) designer that is also interested in
                  frontend development.</p>
@@ -22,10 +39,10 @@
             <p>As a designer I believe creating good user journeys matter. This is because users want
                 to interact with websites in the most efficient way to achieve thier goal. The aim
                 is to make processes simple that go from A - B in a matter of clicks.</p>
-      </div>
+      </div>-->
 
 
-      <div class="work">
+      <div class="work" id="myWork">
         <h3>My Work</h3>
         <p>A rnge of dprojects can be seen listed below</p>
       </div>
@@ -33,19 +50,31 @@
       <div class="workFlex">
             <div>
                 <h3>Volunteer Lines Project</h3>
-              <img class="imgBorder" src="images/browse-events600x600.png">
-              <button class="btnTransition">See More</button>
+              <img class="imgBorder" src="images/volunteer-lines-600x500.png">
+              <!--<button href="volunteer-lines-project.html" class="btnTransition">See More</button>-->
+              <a href="pages/volunteer-lines-project.html"><button class="btnTransition">See More</button></a>
             </div>
 
             <div>
               <h3>DesignerBay Project</h3>
-              <img class="imgBorder" src="images/designerbay600x600.png">
-              <button class="btnTransition">See More</button>
+              <img class="imgBorder" src="images/600x500.png">
+              <a href="pages/designerbay-project.html"><button class="btnTransition">See More</button></a>
             </div>
 
             <!--<div><img src="images/400x300.png"></div>-->
       </div>
-
     </div>
+      <footer class="footer" id="connectFooter">
+        <hr>
+        <div class="connectLinks">
+          <ul>
+          <li class="connectList"><a href="https://twitter.com/JamesAshcroft01?ref_src=twsrc%5Etfw"
+                class="twitter-follow-button" data-show-count="false" data-show-screen-name="false"></a>
+                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></li>
+                <li class="connectList"><a href="https://github.com/ja0112/Uni-Project"><img src="images/GitHub-Mark-32px.png"></a></li>
+                <li class="connectList"><a href="https://www.linkedin.com/in/james-ashcroft-529566106/"><img src="images/In-2C-34px-TM.png"></a></li>
+        </ul>
+      </div>
+      </footer>
   </body>
 </html>

@@ -62,7 +62,7 @@ NAVMENU;
                                           <input type="submit" value="Search" class="button-search">
                                        </form>
                                       <div>
-                                        <a href="index.php"><img class="logo" src="../images/VL-logo.png" width="200px" class="customLogo"></a>
+                                        <a href="index.php"><img class="logo" src="../images/volunteer-lines-logo.png" width="" class="customLogo"></a>
 
                                       <div class="navbar">
                                       <ul>
