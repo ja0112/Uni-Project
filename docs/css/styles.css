@@ -1,3 +1,8 @@
+html, body {
+  margin:0;
+  padding:0;
+}
+/**** Universal css************/
 .wrapper {
  margin-right: auto;
  margin-left:  auto;
@@ -5,14 +10,96 @@
  font-family: 'Montserrat', sans-serif;
  padding: 20px;
 }
-.title {
+body {
+  background-color: #FFFAFA;
+}
+hr {
+  border: 0;
+  background-color: #fff;
+  border-top: 1px dashed #8c8c8c;
+}
+h2, h3 {
+  color: #008080;
+}
+.backPosition {
+  margin-top: 1%;
+}
+ul.bullets {
+    list-style-type: square;
+}
+ul.connectLinks {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li.connectList {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: left;
+}
+.connectLinks {
   margin-left: 40%;
-  margin-top: -3%;
+  width: 23%;
+}
+.logo {
+  margin-left: 0%;
+  margin-top: 2%;
+  width: 23%;
+  color: #FFFFFF;
+}
+
+.heading {
+  text-align: center;
+  margin-top: -2%;
 }
 .overview {
   width: 45%;
   line-height: 2em;
   text-align: justify;
+  margin-top: 5%;
+}
+.header {
+  background:#008080;
+margin-top: -2%;
+color: #FFFFFF;
+text-align: center;
+font-family: 'Montserrat', sans-serif;
+}
+/**************************************************************
+
+/****** Designerbay css*************/
+.rightOverviewDesignerBay {
+  float: right;
+  width: 50%;
+  text-align: justify;
+  line-height: 2em;
+  margin-top: -18.5%;
+}
+.designerbayWork {
+  margin-top: 5%;
+  line-height: 2em;
+  text-align: justify;
+}
+.workFlex {
+   display: inline-flex;
+   justify-content: space-evenly;
+}
+.workFlex > div {
+  width: 100%;
+  margin-left: 0%;
+}
+.moreWork {
+
+}
+/*********************************************/
+
+/************* index.html css****************/
+.intro {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
 }
 .rightOverview {
   float: right;
@@ -24,20 +111,6 @@
 .work {
   width: 50%;
   margin-top: 5%;
-}
-.workFlex {
-   display: inline-flex;
-   justify-content: space-evenly;
-}
-.workFlex > div {
-  width: 100%;
-  margin-left: 2%;
-}
-.positon {
-  margin-left: 2.5%;
-}
-.imgBorder {
-  border: 0.5px solid black;
 }
 .btnTransition {
   border: 2px solid black;
@@ -52,5 +125,117 @@
 }
 .btnTransition:hover {
   color:white;
-  background-color:black;
+  background-color: #008080;
 }
+/*****************************************************/
+
+/******* Volunteer Lines Project.html css****************/
+.rightOverviewVolunteerLines {
+  float: right;
+  width: 50%;
+  text-align: justify;
+  line-height: 2em;
+  margin-top: -13%;
+}
+.volunteerLinesWork {
+  margin-top: 8%;
+}
+/**********************************************************/
+
+.positon {
+  margin-left: 2.5%;
+}
+.imgBorder {
+  border: 0.5px solid black;
+}
+
+/*contols overlay underneath the text once hovered*/
+.imageOverlay {
+  position: relative;
+}
+/*controls position of text once image has been hovered over*/
+.imageText {
+ position: absolute;
+ top: 8.9%;
+ bottom: 0.5%;
+ left: 0%;
+ right: 0%;
+ background: #000000;
+ color: #fff;
+ opacity: 0.5;
+ visibility: hidden;
+ display: flex;
+ align-items: top;
+ justify-content: justify;
+ /*transition: opacity .2s, visibility .2s;*/
+}
+/* makes text appear on hover over*/
+.imageOverlay:hover .imageText {
+  visibility: visible;
+}
+
+/*********** Footer css********************/
+.footer {
+  background:#008080;
+margin-bottom: -2%;
+color: #FFFFFF;
+text-align: center;
+}
+.navfoot {
+  width: 50%;
+  margin-top: -7%;
+  float: right;
+}
+.navfoot li {
+    float: left;
+}
+.navfoot ul {
+ width: 90%;
+ margin-top: 1%;
+ margin-left: 5%;
+ padding: 5px;
+ list-style-type: none;
+ text-align: center;
+ font-family: 'Montserrat', sans-serif;
+ }
+.navfoot a:hover {
+    color: #FFF;
+    text-decoration: none;
+}
+.navfoot a {
+    text-decoration: none;
+    transition: color 0.1s, background-color 0.1s;
+}
+.navfoot a {
+    position: relative;
+    display: block;
+    padding: 16px 0;
+    margin: 0 12px;
+    letter-spacing: 1px;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 900;
+    transition: color 0.1s,background-color 0.1s,padding 0.2s ease-in;
+    color: #FFF;
+}
+.navfoot a::before {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 3px;
+    left: 0;
+    height: 3px;
+    width: 100%;
+    background-color: #FFF;
+    transform-origin: right top;
+    transform: scale(0, 1);
+    transition: color 0.1s,transform 0.2s ease-out;
+}
+.navfoot a:active::before {
+    background-color: #FFF;
+}
+.navfoot a:hover::before, a:focus::before {
+    transform-origin: left top;
+    transform: scale(1, 1);
+}
+/*******************************************************************
