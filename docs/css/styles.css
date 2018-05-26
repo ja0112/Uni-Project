@@ -2,6 +2,62 @@ html, body {
   margin:0;
   padding:0;
 }
+.logo, img {
+    width: 100%;
+
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+     .wrapper {
+
+     }
+     /*.logo, .workFlex img{
+       max-width: 100%;
+     height: auto;
+     }*/
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .wrapper {
+
+    }
+    /*.logo, .workFlex img{
+      max-width: 100%;
+    height: auto;
+    }*/
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .wrapper {
+
+    }
+    /*.logo, .workFlex img{
+      max-width: 100%;
+    height: auto;
+    }*/
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .wrapper {
+
+    }
+    /*.logo, .workFlex img{
+      max-width: 100%;
+    height: auto;
+    }*/
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .wrapper {
+
+    }
+    .logo {
+    }
+}
 /**** Universal css************/
 .wrapper {
  margin-right: auto;
@@ -45,24 +101,37 @@ li.connectList {
   width: 23%;
 }
 .logo {
-  margin-left: 0%;
+  margin-left: 4.2%;
   margin-top: 2%;
   width: 23%;
   color: #FFFFFF;
+  padding-top: 1%;
 }
 
 .heading {
   text-align: center;
   margin-top: -2%;
+  font-family: 'Open Sans', sans-serif;
+}
+.row {
+  display: flex;
 }
 .overview {
-  width: 45%;
   line-height: 2em;
   text-align: justify;
   margin-top: 5%;
+   flex: 50%;
+
+}
+.overviews {
+  line-height: 2em;
+  text-align: justify;
+  margin-top: 5%;
+   flex: 50%;
+    margin-left: 10%;
 }
 .header {
-  background:#008080;
+background:#008080;
 margin-top: -2%;
 color: #FFFFFF;
 text-align: center;
@@ -73,23 +142,25 @@ font-family: 'Montserrat', sans-serif;
 /****** Designerbay css*************/
 .rightOverviewDesignerBay {
   float: right;
-  width: 50%;
+  /*width: 50%;
   text-align: justify;
   line-height: 2em;
-  margin-top: -18.5%;
+  margin-top: -18.5%;*/
 }
 .designerbayWork {
-  margin-top: 5%;
+  margin-top: 2.5%;
   line-height: 2em;
   text-align: justify;
 }
 .workFlex {
    display: inline-flex;
    justify-content: space-evenly;
+   max-width: 100%;
+   height: auto;
 }
 .workFlex > div {
   width: 100%;
-  margin-left: 0%;
+  margin-left: 2.5%;
 }
 .moreWork {
 
@@ -98,8 +169,16 @@ font-family: 'Montserrat', sans-serif;
 
 /************* index.html css****************/
 .intro {
-  font-family: 'Montserrat', sans-serif;
+ font-family: 'Open Sans', sans-serif;
   font-weight: 100;
+  font-size: 32px;
+  text-align: center;
+  margin-left: 30%;
+  width: 40%;
+
+}
+.topline {
+  text-align: center;
 }
 .rightOverview {
   float: right;
@@ -116,7 +195,7 @@ font-family: 'Montserrat', sans-serif;
   border: 2px solid black;
   font-family: 'Montserrat', sans-serif;
   font-size: 15px;
-  width: 15%;
+  width: 17%;
   height: 5%;
   background-color: white;
   cursor: pointer;
@@ -138,7 +217,12 @@ font-family: 'Montserrat', sans-serif;
   margin-top: -13%;
 }
 .volunteerLinesWork {
-  margin-top: 8%;
+  margin-top: 5%;
+}
+.volunteerLinesApproach {
+  margin-top: 5%;
+  line-height: 2em;
+  text-align: justify;
 }
 /**********************************************************/
 
@@ -176,15 +260,17 @@ font-family: 'Montserrat', sans-serif;
 
 /*********** Footer css********************/
 .footer {
-  background:#008080;
 margin-bottom: -2%;
-color: #FFFFFF;
+color: #000000;
 text-align: center;
+ font-family: 'Montserrat', sans-serif;
+
 }
 .navfoot {
   width: 50%;
   margin-top: -7%;
   float: right;
+  background-color: #008080
 }
 .navfoot li {
     float: left;
@@ -196,7 +282,8 @@ text-align: center;
  padding: 5px;
  list-style-type: none;
  text-align: center;
- font-family: 'Montserrat', sans-serif;
+ /*font-family: 'Open Sans', sans-serif;*/
+ font-size: 60px;
  }
 .navfoot a:hover {
     color: #FFF;
