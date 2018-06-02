@@ -9,7 +9,7 @@ html, body {
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
      .wrapper {
-
+        width: 100%;
      }
      /*.logo, .workFlex img{
        max-width: 100%;
@@ -57,6 +57,13 @@ html, body {
     }
     .logo {
     }
+}
+
+@media all and (max-width:30em){
+ a.btnTransition {
+  display:block;
+  margin:0.4em auto;
+ }
 }
 /**** Universal css************/
 .wrapper {
@@ -191,17 +198,36 @@ font-family: 'Montserrat', sans-serif;
   width: 50%;
   margin-top: 5%;
 }
-.btnTransition {
+a.btnTransition {
   border: 2px solid black;
   font-family: 'Montserrat', sans-serif;
   font-size: 15px;
   width: 17%;
   height: 5%;
+  color: #000000;
   background-color: white;
   cursor: pointer;
   transition-duration: 1s;
   transition-duration: 0.4s;
+  padding:0.35em 1.2em;
 }
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
 .btnTransition:hover {
   color:white;
   background-color: #008080;
