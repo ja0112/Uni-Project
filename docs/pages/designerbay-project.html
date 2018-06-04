@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Designer Bay | Portfolio | James Ashcroft</title>
     <link rel="stylesheet" type="text/css" href="../css/styles.css">
-     <script src="portfolioScript.js"></script>
+     <script src="../pages/js/portfolioScript.js"></script>
      <link href="https://fonts.googleapis.com/css?family=Montserrat:100,400" rel="stylesheet">
      <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
     <div class="header">
@@ -15,12 +16,18 @@
           <a href="../index.html"><img src="../images/rsz_portfolio-logo.png"></a>
         </div>
 
-        <div class="navfoot">
+        <div class="navfoot" id="navigation">
               <ul>
               <li><a href="../pages/about.html">ABOUT</a></li>
               <li><a href="../index.html#myWork">WORK</a></li>
               <li><a href="../index.html#connectFooter">CONNECT</a></li>
               </ul>
+        </div>
+        <div class="navfootResponsive"></div>
+
+        <div class="hamburger-icon">
+          <a href="javascript:void(0);" class="icon" onclick="responseNav()">
+          <i class="fa fa-bars"></i></a>
         </div>
     </div>
 
