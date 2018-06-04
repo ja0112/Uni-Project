@@ -118,7 +118,6 @@ li.connectList {
   color: #FFFFFF;
   padding-top: 1%;
 }
-
 .heading {
   text-align: center;
   margin-top: -2%;
@@ -132,7 +131,6 @@ li.connectList {
   text-align: justify;
   margin-top: 5%;
    flex: 50%;
-
 }
 .overviews {
   line-height: 2em;
@@ -297,6 +295,12 @@ color: #000000;
 text-align: center;
  font-family: 'Montserrat', sans-serif;
 
+}
+.navfootResponsive {
+  width: 50%;
+  margin-top: -7%;
+  float: right;
+  background-color: #008080
 }
 .navfoot {
   width: 50%;
