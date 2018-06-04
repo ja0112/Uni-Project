@@ -161,13 +161,14 @@ font-family: 'Montserrat', sans-serif;
 }
 .workFlex {
    display: inline-flex;
-   justify-content: space-evenly;
+   flex-direction: row;
    max-width: 100%;
-   height: auto;
+   flex-wrap: wrap;
+   justify-content: space-between;
 }
 .workFlex > div {
-  width: 100%;
-  margin-left: 2.5%;
+  margin-bottom: 5%;
+  width: calc(1/2*100% - (1 - 1/2)*5%)
 }
 .moreWork {
 
@@ -257,6 +258,7 @@ a:active {
 }
 .imgBorder {
   border: 0.5px solid black;
+  margin-bottom: 5%;
 }
 
 /*contols overlay underneath the text once hovered*/
