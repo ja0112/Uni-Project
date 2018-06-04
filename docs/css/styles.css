@@ -300,12 +300,13 @@ text-align: center;
 float:left;
 }
 .navfootResponsive ul {
-  width: 50%;
+  width: 5%;
   margin-top: -7%;
-  float: right;
+  float: left;
   background-color: #008080;
   font-family: 'Montserrat', sans-serif;
   list-style-type: none;
+  margin-left: 50%;
 }
 .navfoot {
   width: 50%;
