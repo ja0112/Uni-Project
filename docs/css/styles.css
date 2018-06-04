@@ -296,11 +296,16 @@ text-align: center;
  font-family: 'Montserrat', sans-serif;
 
 }
-.navfootResponsive {
+.navfootResponsive li {
+float:left;
+}
+.navfootResponsive ul {
   width: 50%;
   margin-top: -7%;
   float: right;
-  background-color: #008080
+  background-color: #008080;
+  font-family: 'Montserrat', sans-serif;
+  list-style-type: none;
 }
 .navfoot {
   width: 50%;
