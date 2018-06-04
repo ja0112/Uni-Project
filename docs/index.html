@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Portfolio | James Ashcroft</title>
     <link rel="stylesheet" type="text/css" href="css/styles.css">
+     <script src="./pages/js/portfolioScript.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,400" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -15,16 +16,18 @@
         <a href="index.html"><img src="images/rsz_portfolio-logo.png"></a>
         </div>
 
-        <div class="navfoot">
+        <div class="navfoot" id="navigation">
               <ul>
               <li><a href="./pages/about.html">ABOUT</a></li>
               <li><a href="#myWork">WORK</a></li>
               <li><a href="#connectFooter">CONNECT</a></li>
               </ul>
         </div>
+        <div class="navfootResponsive"></div>
 
         <div class="hamburger-icon">
-          <i class="fa fa-bars"></i>
+          <a href="javascript:void(0);" class="icon" onclick="responseNav()">
+          <i class="fa fa-bars"></i></a>
         </div>
     </div>
 
@@ -33,7 +36,6 @@
         <p class="topline">Welcome! My name is James,</p>
         </div>
           <p class="topline">Passionate about designing good user journeys for all types of user.</p>
-
 
         <!--<div class="overview">
               <h3>Overview</h3>
