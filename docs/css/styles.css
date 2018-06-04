@@ -22,6 +22,8 @@ html, body {
     .wrapper {
 
     }
+
+
     /*.logo, .workFlex img{
       max-width: 100%;
     height: auto;
@@ -29,14 +31,16 @@ html, body {
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
     .wrapper {
 
     }
-    /*.logo, .workFlex img{
-      max-width: 100%;
-    height: auto;
-    }*/
+    .navfoot {
+      display: none;
+    }
+    .hamburger-icon {
+      display: block;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -44,19 +48,21 @@ html, body {
     .wrapper {
 
     }
-    /*.logo, .workFlex img{
-      max-width: 100%;
-    height: auto;
-    }*/
+
+    .hamburger-icon {
+      visibility: hidden;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
     .wrapper {
+    }
 
+    .hamburger-icon {
+      visibility: hidden;
     }
-    .logo {
-    }
+
 }
 
 @media all and (max-width:30em){
@@ -72,6 +78,9 @@ html, body {
  width: 91%;
  font-family: 'Montserrat', sans-serif;
  padding: 20px;
+}
+.hamburger-icon {
+
 }
 body {
   background-color: #FFFAFA;
@@ -298,7 +307,7 @@ text-align: center;
   width: 50%;
   margin-top: -7%;
   float: right;
-  background-color: #008080
+  /*background-color: #008080*/
 }
 .navfoot li {
     float: left;
