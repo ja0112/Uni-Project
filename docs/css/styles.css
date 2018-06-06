@@ -36,10 +36,13 @@ html, body {
 
     }
     .navfootResponsive {
-      display: block;
+      display: none;
     }
     .navfoot {
       display: none;
+    }
+    .hamburger-icon {
+      display:block;
     }
 }
 
