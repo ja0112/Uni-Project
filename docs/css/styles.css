@@ -36,7 +36,7 @@ html, body {
 
     }
     .navfoot {
-      display: none;
+      display: block;
     }
     .hamburger-icon {
       display: block;
