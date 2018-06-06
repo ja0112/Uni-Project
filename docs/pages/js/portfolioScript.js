@@ -1,7 +1,6 @@
 function responseNav() {
-  document.getElementById('hIcon').addEventListener('click', function() {
+$("#hIcon").click(function() {
           $("#navigation").toggle();
 
   })
-
-  }
+}
