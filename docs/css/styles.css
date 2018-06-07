@@ -11,6 +11,10 @@ html, body {
      .wrapper {
         width: 100%;
      }
+
+     .navfoot {
+       display: none;
+     }
      /*.logo, .workFlex img{
        max-width: 100%;
      height: auto;
@@ -23,6 +27,9 @@ html, body {
 
     }
 
+  .navfoot {
+    display: none;
+  }
 
     /*.logo, .workFlex img{
       max-width: 100%;
@@ -38,12 +45,13 @@ html, body {
     .navfootResponsive {
       display: none;
     }
+    .hamburger-icon {
+      display: block;
+    }
     .navfoot {
       display: none;
     }
-    .hamburger-icon {
-      display:block;
-    }
+
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -51,12 +59,17 @@ html, body {
   .wrapper {
 
   }
+  .navfoot {
+    display: block;
+  }
   .navfootResponsive {
     display: none;
   }
+
   .hamburger-icon {
-    visibility: hidden;
+    display: none;
   }
+
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -64,7 +77,15 @@ html, body {
     .wrapper {
     }
 
+    .navfoot {
+      display: block;
+    }
+
     .navfootResponsive {
+      display: none;
+    }
+
+    .hamburger-icon {
       display: none;
     }
 }
@@ -308,7 +329,7 @@ text-align: center;
 
 }
 .navfootResponsive {
-  width: 50%;
+  width: 55%;
   margin-top: -7%;
   float: right;
   /*background-color: #008080*/
