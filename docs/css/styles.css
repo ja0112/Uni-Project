@@ -212,7 +212,8 @@ font-family: 'Montserrat', sans-serif;
   width: calc(1/2*100% - (1 - 1/2)*5%)
 }
 .moreWork {
-
+  text-align: justify;
+  line-height: 2em;
 }
 /*********************************************/
 
