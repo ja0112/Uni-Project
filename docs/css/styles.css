@@ -6,19 +6,17 @@ html, body {
     width: 100%;
 
 }
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-     .wrapper {
-        width: 100%;
-     }
 
-     .navfoot {
-       display: none;
-     }
-     /*.logo, .workFlex img{
-       max-width: 100%;
-     height: auto;
-     }*/
+@media only screen and (max-width: 600px) {
+
+  .navfoot {
+    display: none;
+  }
+
+  .navfootResponsive {
+        /*background-color: red;*/
+
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -29,12 +27,13 @@ html, body {
 
   .navfoot {
     display: none;
+
   }
 
   .navfootResponsive {
-    margin-top: -13%;
+  /*background-color: #002;*/
+  margin-top: -7%;
   }
-
 
     /*.logo, .workFlex img{
       max-width: 100%;
@@ -48,8 +47,10 @@ html, body {
 
     }
     .navfootResponsive {
-      display: block;
-      margin-top: -11%;
+      margin-top: -12%;
+      font-size: 80px;
+      /*background-color: #000000;*/
+
     }
     .hamburger-icon {
       display: block;
@@ -236,7 +237,7 @@ font-family: 'Montserrat', sans-serif;
   margin-top: -8%;
 }
 .work {
-  width: 50%;
+  width: 100%;
   margin-top: 5%;
 }
 a.btnTransition {
@@ -336,7 +337,7 @@ text-align: center;
 }
 .navfootResponsive {
   width: 55%;
-  margin-top: -7%;
+/*  margin-top: -7%;*/
   float: right;
 }
 .navfootResponsive li {
