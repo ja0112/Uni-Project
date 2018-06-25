@@ -17,6 +17,17 @@ html, body {
         /*background-color: red;*/
 
   }
+  .overview {
+    display: inline-block;
+    width: 100%;
+    }
+    .overviews {
+      display: inline-block;
+      width: 100%;
+      }
+      .row {
+        display: inline-block;
+      }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -34,6 +45,18 @@ html, body {
   /*background-color: #002;*/
   margin-top: -7%;
   }
+
+  .overview {
+    width: 100%;
+  }
+/*  .overviews:before {
+    content: '';
+    float: right;
+    display: block;
+    width: 300px;
+    height: 150px;
+    margin: 0 0 15px 15px;
+  }*/
 
     /*.logo, .workFlex img{
       max-width: 100%;
