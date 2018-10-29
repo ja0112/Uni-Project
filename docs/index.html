@@ -1,106 +1,83 @@
 <!DOCTYPE HTML>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Portfolio | James Ashcroft</title>
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
-     <script src="./pages/js/portfolioScript.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,400" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  </head>
-  <body>
-    <div class="header">
-      <div class="logo">
-        <a href="index.html"><img src="images/rsz_portfolio-logo.png"></a>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+            <title>Design Portfolio</title>
+                <link rel="stylesheet" type="text/css" href="css/styles.css">
+                      <script src="./pages/js/portfolioScript.js"></script>
+                <link href="https://fonts.googleapis.com/css?family=Montserrat:100,400" rel="stylesheet">
+                <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+                      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div class="header">
+            <div class="logo">
+                  <a href="index.html"><img src="images/no-name-logo.png"></a>
+            </div>
+
+            <div class="navfoot" id="navigation">
+                  <ul>
+                  <!--<li><a href="./pages/about.html">ABOUT</a></li>-->
+                  <li><a href="#myWork">WORK</a></li>
+                  </ul>
+            </div>
+
+            <div class="navfootResponsive" id="navigationR">
+                  <ul>
+                  <!--<li><a href="./pages/about.html">ABOUT</a></li>-->
+                  <li><a href="#myWork">WORK</a></li>
+                  <!--<li><a href="#connectFooter">CONNECT</a></li>-->
+                  </ul>
+            </div>
         </div>
-
-        <div class="navfoot" id="navigation">
-              <ul>
-              <li><a href="./pages/about.html">ABOUT</a></li>
-              <li><a href="#myWork">WORK</a></li>
-              </ul>
-        </div>
-
-        <div class="navfootResponsive" id="navigationR">
-              <ul>
-              <li><a href="./pages/about.html">ABOUT</a></li>
-              <li><a href="#myWork">WORK</a></li>
-              <!--<li><a href="#connectFooter">CONNECT</a></li>-->
-              </ul>
-        </div>
-
-        <!--<div class="navfootResponsive" id="resNav">
-          <ul>
-          <li><a href="./pages/about.html">ABOUT</a></li>
-          <li><a href="#myWork">WORK</a></li>
-          <li><a href="#connectFooter">CONNECT</a></li>
-          </ul>
-        </div>-->
-
-        <!--<div class="hamburger-icon" id="hIcon">
-          <a onclick="responseNav()">
-          <i class="fa fa-bars"></i></a>
-        </div>-->
-    </div>
 
     <div class="wrapper">
-      <div class="intro">
-        <p class="topline">Welcome! My name is James,</p>
+        <div class="intro">
+          <p class="topline">Welcome to My Design Portfolio!</p>
+          </div>
+              <p class="topline">Passionate about designing good user journeys for all types of user.</p>
+
+
+          <div class="work" id="myWork">
+            <h3>My Work</h3>
+            <p>Some projects that I have been involved in are below.</p>
+          </div>
+
+          <div class="workFlex">
+              <div>
+                  <h3>Volunteer Lines Project</h3>
+                <img class="imgBorder" src="images/rsz_volunteer-lines-home.jpg">
+                <!--<button href="volunteer-lines-project.html" class="btnTransition">See More</button>-->
+                <!--<a href="pages/volunteer-lines-project.html"><button class="btnTransition">See More</button></a>-->
+                <a href="pages/volunteer-lines-project.html" class="btnTransition">See More</a>
+              </div>
+
+              <div>
+                <h3>DesignerBay Project</h3>
+                <img class="imgBorder" src="images/600x500.png">
+                <!--<a href="pages/designerbay-project.html"><button class="btnTransition">See More</button></a>-->
+                <a href="pages/designerbay-project.html" class="btnTransition">See More</a>
+              </div>
+
+              <!--<div><img src="images/400x300.png"></div>-->
         </div>
-          <p class="topline">Passionate about designing good user journeys for all types of user.</p>
-
-        <!--<div class="overview">
-              <h3>Overview</h3>
-              <p>An aspiring Interaction and User Experience (UX) designer that is also interested in
-                 frontend development.</p>
-        </div>
-
-        <div class="rightOverview">
-            <p>As a designer I believe creating good user journeys matter. This is because users want
-                to interact with websites in the most efficient way to achieve thier goal. The aim
-                is to make processes simple that go from A - B in a matter of clicks.</p>
-      </div>-->
-
-
-      <div class="work" id="myWork">
-        <h3>My Work</h3>
-        <p>Some projects that I have been involved in are below.</p>
-      </div>
-
-      <div class="workFlex">
-            <div>
-                <h3>Volunteer Lines Project</h3>
-              <img class="imgBorder" src="images/rsz_volunteer-lines-home.jpg">
-              <!--<button href="volunteer-lines-project.html" class="btnTransition">See More</button>-->
-              <!--<a href="pages/volunteer-lines-project.html"><button class="btnTransition">See More</button></a>-->
-              <a href="pages/volunteer-lines-project.html" class="btnTransition">See More</a>
-            </div>
-
-            <div>
-              <h3>DesignerBay Project</h3>
-              <img class="imgBorder" src="images/600x500.png">
-              <!--<a href="pages/designerbay-project.html"><button class="btnTransition">See More</button></a>-->
-              <a href="pages/designerbay-project.html" class="btnTransition">See More</a>
-            </div>
-
-            <!--<div><img src="images/400x300.png"></div>-->
-      </div>
     </div>
+
       <footer class="footer" id="connectFooter">
-        <hr>
-        <h3>Connect</h3>
-        <div class="connectLinks">
-          <ul>
-          <li class="connectList"><a href="https://twitter.com/JamesAshcroft01?ref_src=twsrc%5Etfw"
-                class="twitter-follow-button" data-show-count="false" data-show-screen-name="false"></a>
-                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></li>
-                <li class="connectList"><a href="https://github.com/ja0112/Uni-Project"><img src="images/GitHub-Mark-32px.png"></a></li>
-                <li class="connectList"><a href="https://www.linkedin.com/in/james-ashcroft-529566106/"><img src="images/In-2C-34px-TM.png"></a></li>
-        </ul>
-      </div>
+            <!--<hr>
+            <h3>Connect</h3>
+            <div class="connectLinks">
+              <ul>
+              <li class="connectList"><a href="https://twitter.com/JamesAshcroft01?ref_src=twsrc%5Etfw"
+                    class="twitter-follow-button" data-show-count="false" data-show-screen-name="false"></a>
+                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></li>
+                    <li class="connectList"><a href="https://github.com/ja0112/Uni-Project"><img src="images/GitHub-Mark-32px.png"></a></li>
+                    <li class="connectList"><a href="https://www.linkedin.com/in/james-ashcroft-529566106/"><img src="images/In-2C-34px-TM.png"></a></li>
+            </ul>
+          </div>-->
+
       </footer>
   </body>
 </html>

@@ -15,6 +15,7 @@ html, body {
 
   .navfootResponsive {
         /*background-color: red;*/
+        margin-top: -12%;
 
   }
   .overview {
@@ -43,7 +44,7 @@ html, body {
 
   .navfootResponsive {
   /*background-color: #002;*/
-  margin-top: -7%;
+  margin-top: -20%;
   }
 
   .overview {
@@ -70,20 +71,30 @@ html, body {
 
     }
     .navfootResponsive {
-      margin-top: -12%;
+      margin-top: 20%;
       font-size: 80px;
+      line-height: 5px;
       /*background-color: #000000;*/
 
     }
-    .hamburger-icon {
+    /*.hamburger-icon {
       display: block;
     }
     .navfoot {
       display: none;
-    }
+    }*/
 
 }
 
+@media only screen and (max-width: 800px) {
+  .navfootResponsive {
+    margin-top: -5%;
+    font-size: 80px;
+    line-height: 5px;
+    /*background-color: #000000;*/
+
+  }
+}
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
   .wrapper {
@@ -91,6 +102,7 @@ html, body {
   }
   .navfoot {
     display: block;
+    line-height: 16px;
   }
   .navfootResponsive {
     display: none;
@@ -184,6 +196,7 @@ li.connectList {
   text-align: center;
   margin-top: -2%;
   font-family: 'Open Sans', sans-serif;
+  margin-bottom: -3%;
 }
 .row {
   display: flex;
@@ -389,10 +402,10 @@ text-align: center;
     position: relative;
     display: block;
     padding: 16px 0;
-    margin: 0 12px;
+    margin: -25% 12px;
     letter-spacing: 1px;
     font-size: 12px;
-    line-height: 16px;
+    line-height: 2px;
     font-weight: 900;
     transition: color 0.1s,background-color 0.1s,padding 0.2s ease-in;
     color: #FFF;
@@ -461,10 +474,11 @@ text-align: center;
     margin: 0 12px;
     letter-spacing: 1px;
     font-size: 12px;
-    line-height: 16px;
+    line-height: 5px;
     font-weight: 900;
     transition: color 0.1s,background-color 0.1s,padding 0.2s ease-in;
     color: #FFF;
+    margin-top: 30%;
 }
 .navfoot a::before {
     content: '';
